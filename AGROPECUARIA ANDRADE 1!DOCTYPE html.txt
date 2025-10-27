@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agropecuária Andrade</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/415/415733.png" />
+</head>
+<body class="bg-green-50 text-gray-800">
+
+  <!-- Cabeçalho -->
+  <header class="bg-green-700 text-white shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <div class="flex items-center space-x-4">
+        <!-- Local para banner da loja (substitua o src pela URL da sua imagem) -->
+        <img src="https://via.placeholder.com/100x50?text=Banner+da+Loja" alt="Banner da Agropecuária Andrade" class="h-12 w-auto rounded">
+        <h1 class="text-2xl font-bold">🌾 Agropecuária Andrade</h1>
+      </div>
+      <nav class="space-x-6">
+        <a href="#sobre" class="hover:text-yellow-300">Sobre</a>
+        <a href="#produtos" class="hover:text-yellow-300">Produtos</a>
+        <a href="#contato" class="hover:text-yellow-300">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="bg-cover bg-center h-[400px] flex items-center justify-center text-white" 
+    style="background-image: url('https://images.unsplash.com/photo-1598514982662-3d5ef9d17e7c?auto=format&fit=crop&w=1350&q=80');">
+    <div class="bg-black bg-opacity-50 p-8 rounded-xl text-center">
+      <h2 class="text-4xl font-bold mb-2">Tudo para o homem do campo 🌿</h2>
+      <p class="text-lg">Rações, medicamentos, ferramentas e muito mais!</p>
+      <!-- Botão interativo para WhatsApp (abre diretamente no app ou web) -->
+      <button onclick="window.open('https://wa.me/5599999999999', '_blank')" 
+         class="mt-4 bg-yellow-400 text-green-900 font-bold py-2 px-5 rounded-full hover:bg-yellow-500 transition cursor-pointer">
+         💬 Fale conosco no WhatsApp
+      </button>
+    </div>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="max-w-6xl mx-auto p-8">
+    <h2 class="text-3xl font-bold text-green-700 mb-4">Sobre Nós</h2>
+    <p class="text-lg leading-relaxed">
+      A <strong>Agropecuária Andrade</strong> é referência na região, oferecendo produtos e serviços de qualidade
+      para o homem do campo. Trabalhamos com rações, medicamentos veterinários, sementes, adubos e acessórios
+      agrícolas. Nosso compromisso é com o bem-estar animal e o sucesso da sua produção!
+    </p>
+  </section>
+
+  <!-- Produtos -->
+  <section id="produtos" class="bg-white py-10">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-green-700 mb-6 text-center">Nossos Produtos</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        
+        <div class="bg-green-100 p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1604328698692-8d2d94b61a8f?auto=format&fit=crop&w=800&q=80" alt="Rações" class="rounded-lg mb-3">
+          <h3 class="text-xl font-semibold mb-1">Rações e Suplementos</h3>
+          <p>As melhores marcas para bovinos, suínos, aves e pets.</p>
+        </div>
+
+        <div class="bg-green-100 p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1578496470549-0c0da1a0f1b3?auto=format&fit=crop&w=800&q=80" alt="Medicamentos" class="rounded-lg mb-3">
+          <h3 class="text-xl font-semibold mb-1">Medicamentos Veterinários</h3>
+          <p>Remédios e vacinas de confiança para seus animais.</p>
+        </div>
+
+        <div class="bg-green-100 p-6 rounded-2xl shadow hover:shadow-lg transition">
+          <img src="https://images.unsplash.com/photo-1597404296282-3b5b9a093c1d?auto=format&fit=crop&w=800&q=80" alt="Ferramentas" class="rounded-lg mb-3">
+          <h3 class="text-xl font-semibold mb-1">Ferramentas e Acessórios</h3>
+          <p>Tudo para o dia a dia do campo: pás, enxadas, cordas e muito mais.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-green-700 text-white py-10">
+    <div class="max-w-6xl mx-auto text-center px-6">
+      <h2 class="text-3xl font-bold mb-4">Entre em Contato</h2>
+      <p class="mb-6">📍 Rua das Palmeiras, 123 - Centro, Cidade/UF<br>⏰ Segunda a Sábado: 8h às 18h</p>
+      <!-- Botão interativo para WhatsApp (abre diretamente no app ou web) -->
+      <button onclick="window.open('https://wa.me/5599999999999', '_blank')" 
+         class="bg-yellow-400 text-green-900 font-bold py-3 px-6 rounded-full hover:bg-yellow-500 transition cursor-pointer">
+         💬 Falar no WhatsApp
+      </button>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-green-900 text-white text-center py-4">
+    <p>&copy; 2025 Agropecuária Andrade. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
